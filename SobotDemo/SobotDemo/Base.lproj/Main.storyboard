@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="0g7-nq-Lri">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Oy-nk-48U">
+                                <rect key="frame" x="239" y="104" width="122" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="zK5-4G-VL5"/>
+                                </constraints>
+                                <state key="normal" title="Letv测试账号"/>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c44-SK-51g"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlq-QT-Rlo">
+                                <rect key="frame" x="239" y="193" width="122" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="个人测试账号">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZgA-9u-2em"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="zhangyx@123.com   123123" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1k-f7-wXJ">
+                                <rect key="frame" x="155" y="167" width="291" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="flE-ZF-dth"/>
+                                    <constraint firstAttribute="width" constant="291" id="pw5-DB-IE5"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UUY-fu-1dV">
+                                <rect key="frame" x="239" y="291" width="122" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="使用自己账号">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RXI-7C-L5P"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="可复制,点击使用会保存本次的值" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="g2V-0y-Rah">
+                                <rect key="frame" x="162" y="253" width="276" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="276" id="j98-a7-hff"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jlq-QT-Rlo" firstAttribute="leading" secondItem="UUY-fu-1dV" secondAttribute="leading" id="0Py-Jg-wGt"/>
+                            <constraint firstItem="o1k-f7-wXJ" firstAttribute="top" secondItem="8Oy-nk-48U" secondAttribute="bottom" constant="33" id="7Kg-rL-tMR"/>
+                            <constraint firstItem="jlq-QT-Rlo" firstAttribute="leading" secondItem="8Oy-nk-48U" secondAttribute="leading" id="AHT-Lg-u8m"/>
+                            <constraint firstItem="jlq-QT-Rlo" firstAttribute="top" secondItem="o1k-f7-wXJ" secondAttribute="bottom" constant="5" id="GJj-YT-RQZ"/>
+                            <constraint firstItem="g2V-0y-Rah" firstAttribute="top" secondItem="jlq-QT-Rlo" secondAttribute="bottom" constant="30" id="RBB-xy-uXS"/>
+                            <constraint firstItem="UUY-fu-1dV" firstAttribute="top" secondItem="g2V-0y-Rah" secondAttribute="bottom" constant="8" symbolic="YES" id="WNz-tp-U9M"/>
+                            <constraint firstItem="8Oy-nk-48U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YgQ-re-w60"/>
+                            <constraint firstItem="8Oy-nk-48U" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="84" id="bd3-tL-2Gg"/>
+                            <constraint firstItem="8Oy-nk-48U" firstAttribute="trailing" secondItem="jlq-QT-Rlo" secondAttribute="trailing" id="fmC-GA-M56"/>
+                            <constraint firstItem="UUY-fu-1dV" firstAttribute="centerX" secondItem="g2V-0y-Rah" secondAttribute="centerX" id="k4g-Di-aZK"/>
+                            <constraint firstItem="jlq-QT-Rlo" firstAttribute="trailing" secondItem="UUY-fu-1dV" secondAttribute="trailing" id="lj0-RF-1Ug"/>
+                            <constraint firstItem="jlq-QT-Rlo" firstAttribute="centerX" secondItem="o1k-f7-wXJ" secondAttribute="centerX" id="m11-GD-fmP"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="O0q-Iq-hvh"/>
+                    <connections>
+                        <outlet property="textField" destination="g2V-0y-Rah" id="z9D-1b-egD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1117" y="429"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="GPv-tZ-eyq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0g7-nq-Lri" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kLt-HN-Snl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="9jS-WE-hQx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mqO-Dp-dFe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="291" y="-264"/>
+        </scene>
+    </scenes>
+</document>
