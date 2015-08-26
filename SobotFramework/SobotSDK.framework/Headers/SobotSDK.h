@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SobotInit.h"
-#import "FTest.h"
+#import "ZCSobot.h"
 
 ////! Project version number for SobotSDK.
 //FOUNDATION_EXPORT double SobotSDKVersionNumber;

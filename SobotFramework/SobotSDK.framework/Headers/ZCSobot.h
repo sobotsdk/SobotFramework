@@ -1,14 +1,14 @@
 //
-//  SobotInit.h
+//  ZCSobot.h
 //  SobotSDK
 //
-//  Created by 张新耀 on 15/8/16.
+//  Created by 张新耀 on 15/8/26.
 //  Copyright (c) 2015年 sobot. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 
-@interface SobotInit : NSObject
+@interface ZCSobot : NSObject
 
 /**
  *  跳转到智齿客服
@@ -31,6 +31,7 @@
      customColor:(UIColor *) color;
 
 +(NSString *)getVersion;
+
 
 
 @end

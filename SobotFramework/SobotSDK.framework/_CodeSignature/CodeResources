@@ -4,21 +4,17 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/FTest.h</key>
-		<data>
-		sXgTEO3X82Y8A4wXEb46scItVwM=
-		</data>
-		<key>Headers/SobotInit.h</key>
-		<data>
-		FKDPDRZKJroI4K3SafGu4BR/S0g=
-		</data>
 		<key>Headers/SobotSDK.h</key>
 		<data>
-		yO7jOc08Zyc5ZKA72mh7+Br2hL0=
+		ZeRkO8YnQ1F/VPDWEu/DX5lhsJU=
+		</data>
+		<key>Headers/ZCSobot.h</key>
+		<data>
+		d8BSxJZcSC5ICJtY9fYlY/gwNvs=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4riDjyQoTo4vUbb99CRgmx/j2/M=
+		qBhFseyF+4e8CGLjFv8aLk+2lMY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -27,17 +23,13 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/FTest.h</key>
-		<data>
-		sXgTEO3X82Y8A4wXEb46scItVwM=
-		</data>
-		<key>Headers/SobotInit.h</key>
-		<data>
-		FKDPDRZKJroI4K3SafGu4BR/S0g=
-		</data>
 		<key>Headers/SobotSDK.h</key>
 		<data>
-		yO7jOc08Zyc5ZKA72mh7+Br2hL0=
+		ZeRkO8YnQ1F/VPDWEu/DX5lhsJU=
+		</data>
+		<key>Headers/ZCSobot.h</key>
+		<data>
+		d8BSxJZcSC5ICJtY9fYlY/gwNvs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
