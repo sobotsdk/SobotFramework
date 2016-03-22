@@ -22,6 +22,7 @@
  *  关闭按钮（返回）
  */
 @property(nonatomic,strong) UIButton    * backButton;
+@property(nonatomic,strong) UIButton    * closeButton;
 
 /**
  *  标题

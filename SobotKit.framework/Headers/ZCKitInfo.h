@@ -7,6 +7,32 @@
 //
 #import "ZCLibInitInfo.h"
 
+
+
+////////////////////////////////////////////////////////////////
+// 自定义回调）
+////////////////////////////////////////////////////////////////
+@protocol ZCReceivedMessageDelegate <NSObject>
+
+/**
+ *  未读消息数获取
+ *
+ *  @param object 当前消息
+ *  @param nleft  未读消息数
+ */
+-(void)onReceivedMessage:(id) message unRead:(int) nleft;
+
+@end
+
+/**
+ *  未读消息数，block方式获取
+ *
+ *  @param message 当前消息
+ *  @param nleft   未读消息数
+ */
+typedef void(^ReceivedMessageBlock)(id message,int nleft);
+
+
 /**
  *  配置初始化自定义类
  *  自定义字体（可选） 自定义背景、边框线颜色（可选） 初始化必须参数（ZCLibInitInfo）
@@ -144,5 +170,9 @@
  */
 @property (nonatomic,strong) UIColor    *serviceNameTextColor;
 
+
+
+@property (nonatomic,strong) id<ZCReceivedMessageDelegate> delegate;
+@property (nonatomic,strong) ReceivedMessageBlock          receivedBlock;
 
 @end
