@@ -10,15 +10,15 @@
 		</data>
 		<key>Headers/ZCKitInfo.h</key>
 		<data>
-		BhF6b64F0JM+RQsMajcWcBo0oHs=
+		lXdK8o0G7Ewr8rQUsZZPVjJ18tw=
 		</data>
 		<key>Headers/ZCLibInitInfo.h</key>
 		<data>
-		1Kxw08J52/XpczcIFnt6lx5IpIE=
+		RW0g+siTvpRba9g27lcEfAVf9/g=
 		</data>
 		<key>Headers/ZCSobot.h</key>
 		<data>
-		VpNjw1MW/M+N9OgRdxqbWmKI/44=
+		037fcvWd+zDa+9JNINv/zsdnQNU=
 		</data>
 		<key>Headers/ZCUIBaseController.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		kTRy106wgWL13pCqH3kN2yxYWF4=
+		oH2DTT7Xxm7tGQZRabJqUL2xHHQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -40,33 +40,82 @@
 	<key>files2</key>
 	<dict>
 		<key>Headers/SobotKit.h</key>
-		<data>
-		F6q3CBowWlARfqelALgBWQzObkQ=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			F6q3CBowWlARfqelALgBWQzObkQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			RPzMrsuiqAPn6yO9Sx3ujt8YtKcigvZ8oWNZsJ4QG3s=
+			</data>
+		</dict>
 		<key>Headers/ZCKitInfo.h</key>
-		<data>
-		BhF6b64F0JM+RQsMajcWcBo0oHs=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			lXdK8o0G7Ewr8rQUsZZPVjJ18tw=
+			</data>
+			<key>hash2</key>
+			<data>
+			hnX24TZIdY2BbDpmLTyXar1pw+gvAEFI8jw7zJpptdg=
+			</data>
+		</dict>
 		<key>Headers/ZCLibInitInfo.h</key>
-		<data>
-		1Kxw08J52/XpczcIFnt6lx5IpIE=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			RW0g+siTvpRba9g27lcEfAVf9/g=
+			</data>
+			<key>hash2</key>
+			<data>
+			oJUb7p5l1IUVYdXolWsrFs3n6AiHjWBHR86WkI/G6+w=
+			</data>
+		</dict>
 		<key>Headers/ZCSobot.h</key>
-		<data>
-		VpNjw1MW/M+N9OgRdxqbWmKI/44=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			037fcvWd+zDa+9JNINv/zsdnQNU=
+			</data>
+			<key>hash2</key>
+			<data>
+			xt3JSkl4L8W3A7ZuPwmjH01v7rYSXWLHD+GzHHEZC6c=
+			</data>
+		</dict>
 		<key>Headers/ZCUIBaseController.h</key>
-		<data>
-		AqKka6+AYasvJQXV2XZERyMGxwk=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			AqKka6+AYasvJQXV2XZERyMGxwk=
+			</data>
+			<key>hash2</key>
+			<data>
+			PEeq2bzciPJ+9iGtZToThkVRhr0OlMy/upocjxg2y2Q=
+			</data>
+		</dict>
 		<key>Headers/ZCUIChatController.h</key>
-		<data>
-		MFGVR25mXmkuu4wqzcdnAwZvxU8=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			MFGVR25mXmkuu4wqzcdnAwZvxU8=
+			</data>
+			<key>hash2</key>
+			<data>
+			9vDtMEcK5t9nHo5cxCjJh65PgsmpYdLmIyrb+a3l+tU=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
-		<data>
-		jRUTPvbvsk+dRzaOvvoJhbiW6fQ=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			jRUTPvbvsk+dRzaOvvoJhbiW6fQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			+/vfbnUaJxtTO658++KyAvgiOI9NEY3NsaWHwp8Wl2A=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>

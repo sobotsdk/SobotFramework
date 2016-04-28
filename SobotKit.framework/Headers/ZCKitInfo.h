@@ -46,9 +46,63 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
 
 
 /**
+ *  接口域名
+ */
+@property(nonatomic,strong) NSString *apiHost;
+
+
+/**
+ *  是否保持会话，默认NO,点击返回直接断开会话链接
+ */
+@property (nonatomic,assign) BOOL    isKeepSession;
+
+
+/**
+ *  自定义关闭的时候是否推送满意度评价
+ *  默认为N0;
+ *
+ */
+@property (nonatomic,assign) BOOL    isShowEvaluate;
+
+/**
  *  机器人优先模式，是否直接显示转人工按钮(值为NO时，会在机器人无法回答时显示转人工按钮)，默认，YES
  */
 @property (nonatomic,assign) BOOL    isShowTansfer;
+
+
+/**
+ *  技能组编号
+ *  null
+ *  根据传递的值转接到对应的技能组,不传不起作用
+ */
+@property (nonatomic,strong) NSString   *skillSetId;
+
+
+
+////////////////////////////////////////////////////////////////
+// 自定义咨询内容，在转接人工成功时，方便用户发送自己咨询的信息，（可选）
+////////////////////////////////////////////////////////////////
+
+/**
+ *  图片URL null
+ */
+@property(nonatomic,strong) NSString *goodsImage;
+
+/**
+ *  标题，如果要显示必须填写
+ *  not null
+ */
+@property(nonatomic,strong) NSString *goodsTitle;
+
+/**
+ *  发送给客服的内容，如果要显示必须填写
+ *  not null
+ */
+@property(nonatomic,strong) NSString *goodsSendText;
+
+
+
+
 
 ////////////////////////////////////////////////////////////////
 // 自定义字体，（可选）
@@ -118,14 +172,24 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
 @property (nonatomic,strong) UIColor    *bottomLineColor;
 
 /**
- *  评价普通按钮颜色(默认跟随主题色customBannerColor)
+ *  评价普通按钮选中背景颜色和边框(默认跟随主题色customBannerColor)
  */
-@property (nonatomic,strong) UIColor    *commentButtonBgColor;
+@property (nonatomic,strong) UIColor    *commentOtherButtonBgColor;
 
 /**
- *  评价提交按钮颜色(默认跟随主题色customBannerColor)
+ *  评价(立即结束、取消)按钮文字颜色(默认跟随主题色customBannerColor)
  */
 @property (nonatomic,strong) UIColor    *commentCommitButtonColor;
+
+/**
+ * 评价提交按钮背景颜色和边框(默认跟随主题色customBannerColor)
+ */
+@property (nonatomic,strong) UIColor    *commentCommitButtonBgColor;
+
+/**
+ *  评价提交按钮点击后背景色，默认0x089899, 0.95
+ */
+@property (nonatomic,strong) UIColor    *commentCommitButtonBgHighColor;
 
 
 /**

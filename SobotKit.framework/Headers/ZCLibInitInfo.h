@@ -50,4 +50,19 @@
  */
 @property (nonatomic,strong) NSString   *email;
 
+
+/**
+ *  自定义用户资料
+ *  null
+ *  将自动显示到客服工作台客户资料
+ */
+@property (nonatomic,strong) NSDictionary *customInfo;
+
+ /**
+ *  当前转接的技能组 
+ *  null
+ *  自动连接上一个客服时用户服务端验证
+ */
+@property (nonatomic,strong) NSString     *groupId;
+
 @end
