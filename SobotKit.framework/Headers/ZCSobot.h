@@ -50,4 +50,11 @@
 
 
 
+/**
+ *  显示日志信息
+ *
+ *  @param isShowDebug 默认不显示
+ */
++(void) setShowDebug:(BOOL) isShowDebug;
+
 @end

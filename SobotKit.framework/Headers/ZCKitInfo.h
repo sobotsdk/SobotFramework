@@ -69,6 +69,11 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
  */
 @property (nonatomic,assign) BOOL    isShowTansfer;
 
+/**
+ *  机器人优先模式，通过记录机器人未知说辞的次数设置是否直接显示转人工按钮
+ *  默认 0次。
+ */
+@property (nonatomic,strong) NSString *unWordsCount;
 
 /**
  *  技能组编号
@@ -77,7 +82,17 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
  */
 @property (nonatomic,strong) NSString   *skillSetId;
 
+/**
+ *  技能组名称(同一个技能组，不同名称是需要)
+ *  null
+ */
+@property (nonatomic,strong) NSString   *skillSetName;
 
+/**
+ *  是否开启语音功能
+ *  默认开启
+ */
+@property (nonatomic,assign) BOOL    isOpenRecord;
 
 ////////////////////////////////////////////////////////////////
 // 自定义咨询内容，在转接人工成功时，方便用户发送自己咨询的信息，（可选）
@@ -99,7 +114,6 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
  *  not null
  */
 @property(nonatomic,strong) NSString *goodsSendText;
-
 
 
 
@@ -133,6 +147,10 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
  */
 @property (nonatomic,strong) UIFont    *chatFont;
 
+/**
+ *  录音按钮的文字
+ */
+@property (nonatomic,strong) UIFont    *voiceButtonFont;
 
 
 ////////////////////////////////////////////////////////////////

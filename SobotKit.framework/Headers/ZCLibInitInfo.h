@@ -65,4 +65,66 @@
  */
 @property (nonatomic,strong) NSString     *groupId;
 
+/**
+ *  用户的姓名 将自动备注到客户资料
+ */
+@property (nonatomic,strong) NSString     *userName;
+
+/**
+ *  用户的QQ号 将自动备注到客户资料
+ */
+@property (nonatomic,strong) NSString     *qqNumber;
+
+/**
+ *  用户微信账号 将自动备注到客户资料
+ */
+@property (nonatomic,strong) NSString     *weChat;
+
+/**
+ *  用户的微博账号 将自动备注到客户资料
+ */
+@property (nonatomic,strong) NSString     *weiBo;
+
+/**
+ *  用户的性别 将自动备注到客户资料
+ *  0.男，1.女
+ */
+@property (nonatomic,strong) NSString     *userSex;
+
+/**
+ *  用户的生日 将自动备注到客户资料
+ *  yyyy-MM-dd
+ */
+@property (nonatomic,strong) NSString     *userBirthday;
+
+/**
+ *  用户备注
+ */
+@property (nonatomic,strong) NSString     *userRemark;
+
+/**
+ *  用户自定义头像 将自动备注到客户资料
+ */
+@property (nonatomic,strong) NSString     *avatarUrl;
+
+
+/**
+ *  接入来源页面标题
+ *  null
+ */
+@property(nonatomic,strong) NSString     *sourceTitle;
+
+/**
+ *  接入的来源URL
+ *  null
+ */
+@property (nonatomic,strong) NSString    *sourceURL;
+
+/**
+ *  默认 0 ，跟随系统设置
+ *  自定义接入模式
+ *  1只有机器人,2.仅人工 3.智能客服-机器人优先 4智能客服-人工客服优先'
+ */
+@property (nonatomic,assign) int         serviceMode;
+
 @end
