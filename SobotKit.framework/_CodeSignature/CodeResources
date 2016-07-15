@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/ZCKitInfo.h</key>
 		<data>
-		LFafSkm3+v0u/2LQ2bZdTY67z3Q=
+		H078uAGXSXr1B9qi/IcND5LzoWo=
 		</data>
 		<key>Headers/ZCLibInitInfo.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/ZCUIBaseController.h</key>
 		<data>
-		AqKka6+AYasvJQXV2XZERyMGxwk=
+		YOM1sP69zZz8pRQcLdlV65ur6RU=
 		</data>
 		<key>Headers/ZCUIChatController.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ycxy7efFrY4RoMExLyvGndkn4yM=
+		MFVUUwLOv7qNK7SYUDCzzWubfnc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,11 +54,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LFafSkm3+v0u/2LQ2bZdTY67z3Q=
+			H078uAGXSXr1B9qi/IcND5LzoWo=
 			</data>
 			<key>hash2</key>
 			<data>
-			UncP3eYgYgSfKW/CbQ/3GYyWMFf5ziGcAOMJv8MzMig=
+			0CXQ43xKt+LWBYRK85ViDARxqad4l+NKLBBJEtma4cE=
 			</data>
 		</dict>
 		<key>Headers/ZCLibInitInfo.h</key>
@@ -87,11 +87,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AqKka6+AYasvJQXV2XZERyMGxwk=
+			YOM1sP69zZz8pRQcLdlV65ur6RU=
 			</data>
 			<key>hash2</key>
 			<data>
-			PEeq2bzciPJ+9iGtZToThkVRhr0OlMy/upocjxg2y2Q=
+			a2OAznC6TDpmvCwJLxqb1uc7LWHt5L4t2qAJoqucLYc=
 			</data>
 		</dict>
 		<key>Headers/ZCUIChatController.h</key>

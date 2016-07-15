@@ -27,7 +27,7 @@
 /**
  *  标题
  */
-@property(nonatomic,strong) UILabel     * titleLabel;
+@property(nonatomic,strong) UILabel    * titleLabel;
 
 /**
  *  创建TitleView
@@ -35,3 +35,7 @@
 -(void)createTitleView;
 
 @end
+
+
+
+

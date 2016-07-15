@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "SobotFramework"
-  s.version          = "1.4.6"
+  s.version          = "1.5.0"
   s.summary          = "A marquee view used on iOS."
   s.description      = <<-DESC
                        It is a marquee view used on iOS, which implement by Objective-C.
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.library   = 'z.1.2.5'
 
   # s.resource  = "icon.png"
-    s.resources = 'SobotKit.bundle'
+    s.resources = 'SobotKit.bundle','Expression.bundle'
     s.ios.vendored_frameworks = 'SobotKit.framework'
   # s.ios.vendored_libraries = 'libSobotLib.a'
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"

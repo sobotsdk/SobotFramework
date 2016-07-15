@@ -168,6 +168,20 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
  */
 @property (nonatomic,strong) UIColor    *customBannerColor;
 
+
+/**
+ *  相册导航栏的颜色
+ *
+ */
+@property (nonatomic,strong) UIColor   *imagePickerColor;
+
+/**
+ *  相册导航栏的标题颜色
+ *
+ */
+@property (nonatomic,strong) UIColor  *imagePickerTitleColor;
+
+
 /**
  *  左边聊天气泡颜色
  */
@@ -215,6 +229,10 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
  */
 @property (nonatomic,strong) UIColor    *BgTipAirBubblesColor;
 
+/**
+ *  提价评价按钮的文字颜色
+ */
+@property (nonatomic,strong) UIColor    *submitEvaluationColor;
 
 
 ////////////////////////////////////////////////////////////////
@@ -252,6 +270,22 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
  */
 @property (nonatomic,strong) UIColor    *serviceNameTextColor;
 
+/**
+ *  提示cell中客服昵称的文字颜色
+ */
+@property (nonatomic,strong) NSString   *nickNameTextColor;
+
+
+/**
+ *  左边气泡中的链接颜色
+ */
+@property (nonatomic,strong) NSString   *rcLabelLinkColor;
+
+
+/**
+ *  右边气泡中的链接颜色
+ */
+@property(nonatomic,strong) NSString    *rcLabelRLinkColor;
 
 
 @property (nonatomic,strong) id<ZCReceivedMessageDelegate> delegate;
