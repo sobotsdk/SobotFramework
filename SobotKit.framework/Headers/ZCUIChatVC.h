@@ -1,19 +1,17 @@
 //
-//  ZCUIChatController.h
+//  ZCUIChatVC.h
 //  SobotKit
 //
-//  Created by zhangxy on 15/11/11.
-//  Copyright © 2015年 zhichi. All rights reserved.
+//  Created by zhangxy on 16/8/1.
+//  Copyright © 2016年 zhichi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "ZCKitInfo.h"
-#import "ZCUIBaseController.h"
+#import <SobotKit/SobotKit.h>
 
 /**
  *  智齿 聊天页面VC
  */
-@interface ZCUIChatController : ZCUIBaseController
+@interface ZCUIChatVC : ZCUIBaseController
 
 
 /**
@@ -29,7 +27,7 @@
 /**
  *  初始化
  *
- *  @param info  
+ *  @param info
  *
  *  @return ZCUIChatController
  */
@@ -55,14 +53,5 @@
  *  @param backBlock
  */
 -(void)setPageBlock:(void (^)(ZCUIChatController *object,ZCPageBlockType type))pageClick messageLinkClick:(void (^)(NSString *link)) linkBlock;
-
-
-/**
- *  设置输入框
- *
- *  @return UITextView 
- */
--(UITextView *)getChatTextView;
-
 
 @end

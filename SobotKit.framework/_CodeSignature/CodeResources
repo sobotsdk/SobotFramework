@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/ZCKitInfo.h</key>
 		<data>
-		H078uAGXSXr1B9qi/IcND5LzoWo=
+		Xtnrn8RFlT5PlzPwtDa7T4WE5QM=
 		</data>
 		<key>Headers/ZCLibInitInfo.h</key>
 		<data>
@@ -18,19 +18,23 @@
 		</data>
 		<key>Headers/ZCSobot.h</key>
 		<data>
-		m1ntXtLDwFSAXeaIT5ywV3QxETc=
+		gt/q7EudkscM9yqxxnpHCm7XxpM=
 		</data>
 		<key>Headers/ZCUIBaseController.h</key>
 		<data>
-		YOM1sP69zZz8pRQcLdlV65ur6RU=
+		OtKwX40HA+PHiqFpBuZKK/W1poc=
 		</data>
 		<key>Headers/ZCUIChatController.h</key>
 		<data>
-		MFGVR25mXmkuu4wqzcdnAwZvxU8=
+		VdKBglTX6SZm5m8oEK7ADpposxg=
+		</data>
+		<key>Headers/ZCUIChatVC.h</key>
+		<data>
+		oNjy+qu+uEFS3LGmB7JlrNX64NQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MFVUUwLOv7qNK7SYUDCzzWubfnc=
+		AOJAM7l1lQbpYjj0SjGK7S2jgOo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,11 +58,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			H078uAGXSXr1B9qi/IcND5LzoWo=
+			Xtnrn8RFlT5PlzPwtDa7T4WE5QM=
 			</data>
 			<key>hash2</key>
 			<data>
-			0CXQ43xKt+LWBYRK85ViDARxqad4l+NKLBBJEtma4cE=
+			0S6jnUjx6DeNGQ/xzBWmv4mVd3G3bivHMcEFiWoALSU=
 			</data>
 		</dict>
 		<key>Headers/ZCLibInitInfo.h</key>
@@ -76,33 +80,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			m1ntXtLDwFSAXeaIT5ywV3QxETc=
+			gt/q7EudkscM9yqxxnpHCm7XxpM=
 			</data>
 			<key>hash2</key>
 			<data>
-			OCPwSxucop6W7mHDyml/oCwrhCRjBPjV2dj9okKxKxI=
+			ifipmkEB2rgzrlhUN79qN5YIPo+Tvcc1GalGh5xJP3A=
 			</data>
 		</dict>
 		<key>Headers/ZCUIBaseController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YOM1sP69zZz8pRQcLdlV65ur6RU=
+			OtKwX40HA+PHiqFpBuZKK/W1poc=
 			</data>
 			<key>hash2</key>
 			<data>
-			a2OAznC6TDpmvCwJLxqb1uc7LWHt5L4t2qAJoqucLYc=
+			4I0or5ZmnpF1TaITXzYEhWX3TOBriIroDhSi2Y5COQU=
 			</data>
 		</dict>
 		<key>Headers/ZCUIChatController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MFGVR25mXmkuu4wqzcdnAwZvxU8=
+			VdKBglTX6SZm5m8oEK7ADpposxg=
 			</data>
 			<key>hash2</key>
 			<data>
-			9vDtMEcK5t9nHo5cxCjJh65PgsmpYdLmIyrb+a3l+tU=
+			dNF4/jgqspiU8vi6lioeJT386MnWcjfdaYGHnbbWzb4=
+			</data>
+		</dict>
+		<key>Headers/ZCUIChatVC.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oNjy+qu+uEFS3LGmB7JlrNX64NQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			3EcTcIMSn7R5F6geNhVM5BoC18KwPGsTzphTnniDwZ8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

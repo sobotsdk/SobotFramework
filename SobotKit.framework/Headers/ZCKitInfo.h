@@ -229,15 +229,17 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
  */
 @property (nonatomic,strong) UIColor    *BgTipAirBubblesColor;
 
-/**
- *  提价评价按钮的文字颜色
- */
-@property (nonatomic,strong) UIColor    *submitEvaluationColor;
+
 
 
 ////////////////////////////////////////////////////////////////
 // 自定义文字颜色，（可选）
 ////////////////////////////////////////////////////////////////
+
+/**
+ *  提价评价按钮的文字颜色
+ */
+@property (nonatomic,strong) UIColor    *submitEvaluationColor;
 
 /**
  *  顶部文字颜色
@@ -273,19 +275,25 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
 /**
  *  提示cell中客服昵称的文字颜色
  */
-@property (nonatomic,strong) NSString   *nickNameTextColor;
+@property (nonatomic,strong) UIColor    *nickNameTextColor;
 
 
 /**
  *  左边气泡中的链接颜色
  */
-@property (nonatomic,strong) NSString   *rcLabelLinkColor;
+@property (nonatomic,strong) UIColor   *chatLeftLinkColor;
 
 
 /**
  *  右边气泡中的链接颜色
  */
-@property(nonatomic,strong) NSString    *rcLabelRLinkColor;
+@property(nonatomic,strong) UIColor    *chatRightLinkColor;
+
+
+/**
+ *  是否设置相册背景图片
+ */
+@property (nonatomic ,assign) BOOL    isSetPhotoLibraryBgImage;
 
 
 @property (nonatomic,strong) id<ZCReceivedMessageDelegate> delegate;

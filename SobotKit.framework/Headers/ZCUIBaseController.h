@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+/**ZCPageBlockType回调类型*/
+typedef NS_ENUM(NSInteger,ZCPageBlockType) {
+    ZCPageBlockGoBack     = 1,// 点击返回
+    ZCPageBlockLoadFinish = 2,// 加载界面完成，可对UI进行修改
+};
+
+
 /**
  *  智齿SDK中公共UIViewController
  */
@@ -17,6 +24,11 @@
  *  顶部的View
  */
 @property(nonatomic,strong) UIView      * topView;
+
+/**
+ *  顶部的导航栏的背景图片
+ */
+@property(nonatomic,strong) UIImageView   * topImageView;
 
 /**
  *  关闭按钮（返回）
