@@ -1,9 +1,11 @@
 Pod::Spec.new do |s|
   s.name             = "SobotFramework"
+  
   s.version          = "1.7.0"
+ 
   s.summary          = "A marquee view used on iOS."
   s.description      = <<-DESC
-                       It is a marquee view used on iOS, which implement by Objective-C.
+                       It is marquee view used on iOS, which implement by Objective-C.
                        DESC
   s.homepage         = "https://github.com/zhichisobot/SobotFramework"
   # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
