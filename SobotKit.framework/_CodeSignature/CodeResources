@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/ZCSobot.h</key>
 		<data>
-		gt/q7EudkscM9yqxxnpHCm7XxpM=
+		m1ntXtLDwFSAXeaIT5ywV3QxETc=
 		</data>
 		<key>Headers/ZCUIBaseController.h</key>
 		<data>
@@ -28,13 +28,9 @@
 		<data>
 		VdKBglTX6SZm5m8oEK7ADpposxg=
 		</data>
-		<key>Headers/ZCUIChatVC.h</key>
-		<data>
-		oNjy+qu+uEFS3LGmB7JlrNX64NQ=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		AOJAM7l1lQbpYjj0SjGK7S2jgOo=
+		/Pv04YHXIOTrCCQZWZIM/5gCVuQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -80,11 +76,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gt/q7EudkscM9yqxxnpHCm7XxpM=
+			m1ntXtLDwFSAXeaIT5ywV3QxETc=
 			</data>
 			<key>hash2</key>
 			<data>
-			ifipmkEB2rgzrlhUN79qN5YIPo+Tvcc1GalGh5xJP3A=
+			OCPwSxucop6W7mHDyml/oCwrhCRjBPjV2dj9okKxKxI=
 			</data>
 		</dict>
 		<key>Headers/ZCUIBaseController.h</key>
@@ -107,17 +103,6 @@
 			<key>hash2</key>
 			<data>
 			dNF4/jgqspiU8vi6lioeJT386MnWcjfdaYGHnbbWzb4=
-			</data>
-		</dict>
-		<key>Headers/ZCUIChatVC.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			oNjy+qu+uEFS3LGmB7JlrNX64NQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			3EcTcIMSn7R5F6geNhVM5BoC18KwPGsTzphTnniDwZ8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

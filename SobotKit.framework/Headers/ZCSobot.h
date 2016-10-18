@@ -10,7 +10,6 @@
 #import "ZCKitInfo.h"
 #import "ZCLibInitInfo.h"
 #import "ZCUIChatController.h"
-#import "ZCUIChatVC.h"
 
 /**
  *  智齿SDK入口
