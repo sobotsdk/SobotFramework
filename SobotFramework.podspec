@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "SobotFramework"
   
-  s.version          = "1.7.0"
+  s.version          = "1.8.0"
  
   s.summary          = "A marquee view used on iOS."
   s.description      = <<-DESC
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   s.library   = 'z.1.2.5'
 
   # s.resource  = "icon.png"
-    s.resources = 'SobotKit.bundle','ZCEmojiExpression.bundle','SobotLocalizable.strings'
+    s.resources = 'SobotKit.bundle','ZCEmojiExpression.bundle','en.lproj/SobotLocalizable.strings','zh-Hans.lproj/SobotLocalizable.strings'
     s.ios.vendored_frameworks = 'SobotKit.framework'
   # s.ios.vendored_libraries = 'libSobotLib.a'
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"

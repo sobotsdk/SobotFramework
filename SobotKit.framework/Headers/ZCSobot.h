@@ -10,6 +10,7 @@
 #import "ZCKitInfo.h"
 #import "ZCLibInitInfo.h"
 #import "ZCUIChatController.h"
+#import "ZCLibClient.h"
 
 /**
  *  智齿SDK入口
@@ -56,5 +57,7 @@
  *  @param isShowDebug 默认不显示
  */
 +(void) setShowDebug:(BOOL) isShowDebug;
+
+
 
 @end

@@ -6,6 +6,7 @@
 //  Copyright © 2015年 zhichi. All rights reserved.
 //
 #import "ZCLibInitInfo.h"
+#import "ZCProductInfo.h"
 
 
 
@@ -54,7 +55,7 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
 /**
  *  是否保持会话，默认NO,点击返回直接断开会话链接
  */
-@property (nonatomic,assign) BOOL    isKeepSession;
+//@property (nonatomic,assign) BOOL    isKeepSession;
 
 
 /**
@@ -94,28 +95,45 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
  */
 @property (nonatomic,assign) BOOL    isOpenRecord;
 
+
+/**
+ *  留言时是否显示手机号
+ *
+ *  默认 关闭
+ */
+@property (nonatomic,assign) BOOL    isShowPhoneNumber;
+
+/**
+ *  留言时是否显示昵称
+ *
+ *  默认关闭
+ */
+@property (nonatomic,assign) BOOL    isShowNickName;
+
+/**
+ *  留言时是否必须输入手机号（在显示手机号的情况下）
+ *
+ *  默认不输入
+ */
+@property (nonatomic,assign) BOOL    isAddPhoneNumber;
+
+/**
+ *  留言时是否必须输入昵称 (在显示昵称的情况下)
+ *
+ *  默认不输入
+ */
+@property (nonatomic,assign) BOOL    isAddNickName;
+
+
 ////////////////////////////////////////////////////////////////
 // 自定义咨询内容，在转接人工成功时，方便用户发送自己咨询的信息，（可选）
+// 标题（必填）、页面地址url（必填）、摘要、标签、缩略图url
 ////////////////////////////////////////////////////////////////
 
 /**
- *  图片URL null
+ *  产品信息
  */
-@property(nonatomic,strong) NSString *goodsImage;
-
-/**
- *  标题，如果要显示必须填写
- *  not null
- */
-@property(nonatomic,strong) NSString *goodsTitle;
-
-/**
- *  发送给客服的内容，如果要显示必须填写
- *  not null
- */
-@property(nonatomic,strong) NSString *goodsSendText;
-
-
+@property(nonatomic,strong) ZCProductInfo *productInfo;
 
 
 ////////////////////////////////////////////////////////////////
@@ -151,6 +169,19 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
  *  录音按钮的文字
  */
 @property (nonatomic,strong) UIFont    *voiceButtonFont;
+
+
+/**
+ *   商品详情cell 中title的文字
+ *
+ */
+@property (nonatomic,strong) UIFont   *goodsTitleFont;
+
+/**
+ *   商品详情cell中 摘要的文字
+ *
+ */
+@property (nonatomic,strong) UIFont   *goodsDetFont;
 
 
 ////////////////////////////////////////////////////////////////
@@ -193,6 +224,17 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
 @property (nonatomic,strong) UIColor    *rightChatColor;
 
 /**
+ *  左边聊天气泡复制选中的背景颜色
+ */
+@property (nonatomic,strong) UIColor    *leftChatSelectedColor;
+
+/**
+ *  右边聊天气泡复制选中的背景颜色
+ */
+@property (nonatomic,strong) UIColor    *rightChatSelectedColor;
+
+
+/**
  *  底部bottom的背景颜色
  */
 @property (nonatomic,strong) UIColor    *backgroundBottomColor;
@@ -229,8 +271,18 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
  */
 @property (nonatomic,strong) UIColor    *BgTipAirBubblesColor;
 
+/**
+ * 语音cell选中的背景色
+ *
+ */
+@property (nonatomic,strong) UIColor    *videoCellBgSelColor;
 
-
+/**
+ *
+ *  富文本中的线条颜色
+ *
+ */
+@property (nonatomic,strong) UIColor    *LineRichColor;
 
 ////////////////////////////////////////////////////////////////
 // 自定义文字颜色，（可选）
@@ -291,9 +343,34 @@ typedef void(^ReceivedMessageBlock)(id message,int nleft);
 
 
 /**
+ *  商品详情cell中title的文字颜色
+ *
+ */
+@property (nonatomic, strong) UIColor   *goodsTitleTextColor;
+
+/**
+ *  商品详情cell中摘要的文字颜色
+ *
+ */
+@property (nonatomic, strong) UIColor   *goodsDetTextColor;
+
+/**
+ *  商品详情cell中标签的文字颜色
+ *
+ */
+@property (nonatomic ,strong) UIColor   *goodsTipTextColor;
+
+/**
+ *  商品详情cell中发送的文字颜色
+ *
+ */
+@property (nonatomic, strong) UIColor   *goodsSendTextColor;
+
+/**
  *  是否设置相册背景图片
  */
 @property (nonatomic ,assign) BOOL    isSetPhotoLibraryBgImage;
+
 
 
 @property (nonatomic,strong) id<ZCReceivedMessageDelegate> delegate;
